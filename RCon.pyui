@@ -1,0 +1,147 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{154, 28}, {121, 44}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "send_cmd",
+          "border_width" : 1,
+          "frame" : "{{80, 104}, {80, 32}}",
+          "title" : "Send",
+          "uuid" : "5400A8F5-03BC-42CF-BAAA-B5F77EABCCE3",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "class" : "Button",
+          "font_bold" : false,
+          "corner_radius" : 1,
+          "name" : "Send",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{14, 88}, {371, 270}}",
+        "class" : "TextView",
+        "attributes" : {
+          "uuid" : "C9242D32-BA3A-4AC7-9EB4-2407FD53B4A0",
+          "font_size" : 10,
+          "corner_radius" : 2,
+          "background_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "frame" : "{{20, 20}, {200, 200}}",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "editable" : false,
+          "border_width" : 2,
+          "border_color" : "RGBA(-0.055556,1.000000,0.311594,1.000000)",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "text" : "Welcome to the Console!",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "name" : "console",
+          "flex" : "W"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{296, 6}, {97, 33}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "close",
+          "border_width" : 1,
+          "frame" : "{{113, 121}, {80, 32}}",
+          "title" : "Close",
+          "uuid" : "AE0CD100-46F9-4B67-8020-2982D900ECE9",
+          "class" : "Button",
+          "corner_radius" : 1,
+          "name" : "Close",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{14, 28}, {132, 44}}",
+        "class" : "TextField",
+        "attributes" : {
+          "border_width" : 1,
+          "name" : "command",
+          "frame" : "{{53, 121}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "0739A892-CF62-42C2-8BC0-52C9EA9B6606",
+          "alignment" : "left",
+          "corner_radius" : 1,
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{296, 47}, {97, 33}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 1,
+          "action" : "clear",
+          "frame" : "{{160, 171}, {80, 32}}",
+          "title" : "Clear",
+          "uuid" : "C63D187C-62ED-4DEE-BBA0-8CA7077052B5",
+          "class" : "Button",
+          "corner_radius" : 1,
+          "font_bold" : false,
+          "name" : "clear",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{14, 0}, {132, 26}}",
+        "class" : "Label",
+        "attributes" : {
+          "border_width" : 0,
+          "name" : "input_command",
+          "text" : "Input Command",
+          "frame" : "{{125, 171}, {150, 32}}",
+          "uuid" : "B9E26BC5-E571-4C4A-BFA7-1A772CDFD7D1",
+          "corner_radius" : 0,
+          "background_color" : "RGBA(0.705882,0.882353,0.909804,1.000000)",
+          "class" : "Label",
+          "alignment" : "left",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {399, 373}}",
+    "class" : "View",
+    "attributes" : {
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "enabled" : true,
+      "background_color" : "RGBA(0.706609,0.882163,0.908497,1.000000)",
+      "name" : "RCon Interface",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
