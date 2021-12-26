@@ -7,8 +7,8 @@ Extremely simple to use, but there are a few steps:
 2. Edit **config.py**. Change the variables to your variables.
 
 Example:
-IP = "120.0.0.1"
-PASSWORD = "RconTestWoohoo!"
+IP = "120.0.0.1"\n
+PASSWORD = "RconTestWoohoo!"\n
 PORT = 8020
 
 3. Run RCon.py!
