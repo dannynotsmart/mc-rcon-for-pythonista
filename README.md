@@ -7,8 +7,14 @@ Extremely simple to use, but there are a few steps:
 2. Edit **config.py**. Change the variables to your variables.
 
 Example:
-IP = "120.0.0.1"\n
-PASSWORD = "RconTestWoohoo!"\n
+IP = "120.0.0.1"
+PASSWORD = "RconTestWoohoo!"
 PORT = 8020
 
 3. Run RCon.py!
+
+NOTE: I have never used Github seriously so all this stuff is pretty new to me, this project serves as like a first project thing on Github. The code is bad but you can modify it to how you like!
+I also don't know anything about liscences
+
+Open up an issue or PR and I might not read it.
+A ss of the thing:
